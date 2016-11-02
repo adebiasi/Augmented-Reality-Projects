@@ -1,0 +1,2 @@
+/Users/RdA/Desktop/Appl_placesCoord 2/Classes/Place.m:68: warning: incomplete implementation of class 'Place'
+/Users/RdA/Desktop/Appl_placesCoord 2/Classes/Place.m:68: warning: method definition for '-geodeticToCartesian:Longitude:Elevation:' not found

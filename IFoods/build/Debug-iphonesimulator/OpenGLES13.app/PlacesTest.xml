@@ -1,0 +1,20 @@
+<Places xmlns="placesSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<place><name>test
+</name><address>test
+</address><index>0</index><cartesianPosition><gml:Point><gml:pos>46880.65025341313 65617.77097589336 56823.25030874461
+</gml:pos></gml:Point></cartesianPosition>
+<geodeticPosition><gml:Point><gml:pos>46.002 11 300
+</gml:pos></gml:Point></geodeticPosition></place>
+<place><name>test2</name><address>test2
+</address><index>1</index><cartesianPosition><gml:Point><gml:pos>46987.208214860875 65463.34207788017 56965.45144130383
+</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>46.00 11.001 300.0
+</gml:pos></gml:Point></geodeticPosition></place>
+<place><name>test3</name><address>test3
+</address><index>2</index><cartesianPosition><gml:Point><gml:pos>46971.9497548896 65540.55721788947 56886.960783712566
+</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>46.001 11.001 300.0
+</gml:pos></gml:Point></geodeticPosition></place>
+<place><name>test4</name><address>test4
+</address><index>3</index><cartesianPosition><gml:Point><gml:pos>46135.47190224915 65540.55721788947 57049.48742925003
+</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>46.001 10.990 300.0
+</gml:pos></gml:Point></geodeticPosition></place>
+</Places>

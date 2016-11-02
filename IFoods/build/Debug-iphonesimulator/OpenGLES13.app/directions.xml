@@ -1,0 +1,92 @@
+<Directions xmlns="directionsSchema" xmlns:gml="http://www.opengis.net/gml"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  
+
+	    <directions>
+        <direction>
+            <name>ViaAllaCascata54</name>
+			<index>1</index>		  
+			<position>
+                <point>
+					<pos>46.069443742373444 11.150511503219604 100</pos>
+					</point>
+				</position>
+			</direction>		
+			
+		<direction>
+            <name>RotondaViaAllaCascata</name>
+			<index>2</index>		  
+			<position>
+                <Point>
+					<pos>46.068662167627814 11.150565147399902 100</pos>
+					</Point>
+				</position>
+			</direction>	
+			
+				
+		<direction>
+            <name>FermataTramViaSommarive2</name>
+			<index>3</index>		  
+			<position>
+                <Point>
+					<pos>46.06732229945907 11.150565147399902 100</pos>
+					</Point>
+				</position>
+			</direction>		
+		<direction>
+            <name>IncrViaSommariveViaDeiMaloni</name>
+			<index>4</index>		  
+			<position>
+                <Point>
+					<pos>46.06648114338003 11.150457859039307 100</pos>
+					</Point>
+				</position>
+			</direction>		
+		<direction>
+            <name>FermataTramViaSommarive</name>
+			<index>5</index>		  
+			<position>
+                <Point>
+					<pos>46.06539432097144 11.150468587875366 100</pos>
+					</Point>
+				</position>
+			</direction>		
+		<direction>
+            <name>RotondaViaCastel</name>
+			<index>6</index>		  
+			<position>
+                <Point>
+					<pos>46.06374171438753 11.150168180465698 100</pos>
+					</Point>
+				</position>
+			</direction>		
+		<direction>
+            <name>FermataTramViaDonTommaso</name>
+			<index>7</index>		  
+			<position>
+                <Point>
+					<pos>46.064017152253726 11.150940656661987 100</pos>
+					</Point>
+				</position>
+			</direction>		
+		<direction>
+            <name>Incrocio</name>
+			<index>8</index>		  
+			<position>
+                <Point>
+					<pos>46.06509655767325 11.153483390808105 100</pos>
+					</Point>
+				</position>
+			</direction>		
+		<direction>
+            <name>FermataTramViaDellaResistenza</name>
+			<index>9</index>		  
+			<position>
+                <Point>
+					<pos>46.06583351890462 11.154577732086182 100</pos>
+					</Point>
+				</position>
+			</direction>	
+			
+		</directions>
+</Directions>

@@ -1,0 +1,5 @@
+/Users/RdA/Desktop/Appl_realLatLon 2/Classes/GraphicController.m: In function '+[GraphicController convertInXYZ:]':
+/Users/RdA/Desktop/Appl_realLatLon 2/Classes/GraphicController.m:685: warning: no '-initX:Y:Z:' method found
+/Users/RdA/Desktop/Appl_realLatLon 2/Classes/GraphicController.m:685: warning: (Messages without a matching method signature
+/Users/RdA/Desktop/Appl_realLatLon 2/Classes/GraphicController.m:685: warning: will be assumed to return 'id' and accept
+/Users/RdA/Desktop/Appl_realLatLon 2/Classes/GraphicController.m:685: warning: '...' as arguments.)

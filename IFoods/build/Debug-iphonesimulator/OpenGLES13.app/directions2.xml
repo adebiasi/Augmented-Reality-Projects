@@ -1,0 +1,76 @@
+<Directions xmlns="directionsSchema" xmlns:gml="http://www.opengis.net/gml"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  
+
+	    <directions>
+        <direction>
+            <name>Povo</name>
+			<index>1</index>		  
+			<position>
+                <point>
+					<pos>46.06644615778241 11.154556274414062 100</pos>
+					</point>
+				</position>
+			</direction>	
+			
+			<direction>
+            <name>Via Venezia</name>
+			<index>2</index>		  
+			<position>
+                <point>
+					<pos>46.06573153678504 11.132755279541016 100</pos>
+					</point>
+				</position>
+			</direction>	
+			
+			<direction>
+            <name>Via Piave</name>
+			<index>2</index>		  
+			<position>
+                <point>
+					<pos>46.06275384971786 11.126060485839844 100</pos>
+					</point>
+				</position>
+			</direction>	
+			
+			<direction>
+            <name>Trento</name>
+			<index>2</index>		  
+			<position>
+                <point>
+					<pos>46.06644615778241 11.120052337646484 100</pos>
+					</point>
+				</position>
+			</direction>	
+			
+			<direction>
+			  <name>Belvedere</name>
+			<index>3</index>		  
+			<position>
+                <point>
+					<pos>46.045718392871606 11.100826263427734 100</pos>
+					</point>
+				</position>
+			</direction>	
+			
+			<direction>
+            <name>Ravina</name>
+			<index>4</index>		  
+			<position>
+                <point>
+					<pos>46.03940321746251 11.108036041259766 100</pos>
+					</point>
+				</position>
+			</direction>	
+			
+			<direction>
+            <name>Romagnano</name>
+			<index>5</index>		  
+			<position>
+                <point>
+					<pos>46.01902291840619 11.106147766113281 100</pos>
+					</point>
+				</position>
+			</direction>					
+		</directions>
+</Directions>

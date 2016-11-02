@@ -1,0 +1,21 @@
+
+
+<Places xmlns="placesSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><place><name>
+Pizzeria Bar Alle Palme
+</name><address>
+Via Giovanni Panizza,54 38060 Volano
+</address><index>0</index><cartesianPosition><gml:Point><gml:pos>52648.795577319455 59024.71848903876 62489.63476909045</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>45.917662 11.059048 194.0</gml:pos></gml:Point></geodeticPosition></place><place><name>
+Pizzeria Fucine
+</name><address>
+Via Leonardo da Vinci, 38068 Rovereto
+</address><index>1</index><cartesianPosition><gml:Point><gml:pos>50782.015000229934 57497.186988976784 64432.674884811044</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>45.898088 11.030638 175.0</gml:pos></gml:Point></geodeticPosition></place><place><name>
+Casa Mia
+</name><address>
+Via San Giorgio 37, Rovereto
+</address><index>2</index><cartesianPosition><gml:Point><gml:pos>0 0 0</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>45.886438 11.030102 173.0</gml:pos></gml:Point></geodeticPosition></place>
+<place><name>
+TEST
+</name><address>
+Via San Giorgio 37, Rovereto
+</address><index>3</index><cartesianPosition><gml:Point><gml:pos>50918.81266386679 56594.47137516644 65351.88817616366</gml:pos></gml:Point></cartesianPosition><geodeticPosition><gml:Point><gml:pos>44.88 11.030102 173.0</gml:pos></gml:Point></geodeticPosition></place>
+</Places>

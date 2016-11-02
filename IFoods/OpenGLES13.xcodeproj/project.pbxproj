@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* OpenGLES13AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OpenGLES13AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		38B36D5D0FC8F16000E36B44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B36D5C0FC8F16000E36B44 /* CoreGraphics.framework */; };
+		7196A62E10FDC23A002FFFA6 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 7196A62D10FDC23A002FFFA6 /* restaurant.png */; };
+		719C267E1100C24A00B6F60B /* restaurant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 719C267D1100C24A00B6F60B /* restaurant2.png */; };
+		719DD41710A86D3200AA78BC /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 719DD41610A86D3200AA78BC /* Texture2D.m */; };
+		71A185D810A42D01007CD918 /* LatLon.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A185D710A42D01007CD918 /* LatLon.m */; };
+		71A1B4F510A9B9E4009A3E29 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A1B4F410A9B9E4009A3E29 /* InfoView.m */; };
+		71A2349E1109A79400CCD062 /* Restaurant.xml in Resources */ = {isa = PBXBuildFile; fileRef = 71A2349D1109A79400CCD062 /* Restaurant.xml */; };
+		71A234AC1109AB4100CCD062 /* DetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A234AB1109AB4100CCD062 /* DetailsView.m */; };
+		71A235681109D59D00CCD062 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A235671109D59D00CCD062 /* Table.m */; };
+		71A235711109DA4F00CCD062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A235701109DA4F00CCD062 /* ViewController.m */; };
+		71A26CFE10988582000B8918 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A26CF910988582000B8918 /* Camera.m */; };
+		71A26CFF10988582000B8918 /* gluLookAt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A26CFB10988582000B8918 /* gluLookAt.m */; };
+		71A26DC410989179000B8918 /* TouchListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A26DC310989179000B8918 /* TouchListener.m */; };
+		71A3085310C94A3900046A3D /* WebServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A3085210C94A3900046A3D /* WebServicesViewController.m */; };
+		71A365F810FC771B002A101F /* PlacesMngt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A365F710FC771B002A101F /* PlacesMngt.m */; };
+		71A366A310FC9EE0002A101F /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A366A210FC9EE0002A101F /* Place.m */; };
+		71A6CBA9110D9C72005BF8C9 /* LastPath.xml in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CBA8110D9C72005BF8C9 /* LastPath.xml */; };
+		71A6CC31110DD32C005BF8C9 /* indicazione2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC30110DD32C005BF8C9 /* indicazione2.png */; };
+		71A78FEA10D8EA4F00971823 /* LocalXYZInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A78FE910D8EA4F00971823 /* LocalXYZInfoController.m */; };
+		71A7E33A10C679A200BA3871 /* InfoView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A7E33910C679A200BA3871 /* InfoView2.m */; };
+		71A8CB9110B2B3A300F71D8C /* WorldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A8CB9010B2B3A300F71D8C /* WorldController.m */; };
+		71A8CC2A10B2C74D00F71D8C /* Vec4.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A8CC2910B2C74D00F71D8C /* Vec4.m */; };
+		71AA40AD10A08FAD00527FFA /* PhotoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AA40AC10A08FAD00527FFA /* PhotoLibrary.framework */; };
+		71AA9E6E10A2E6C200FA216A /* GPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AA9E6D10A2E6C200FA216A /* GPSController.m */; };
+		71AAA0B610A32F5800FA216A /* GraphicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AAA0B510A32F5800FA216A /* GraphicController.m */; };
+		71AAA72C110F00D6004FB362 /* restaurant_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AAA72B110F00D6004FB362 /* restaurant_small.png */; };
+		71AAA733110F01D8004FB362 /* restaurant_verySmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AAA732110F01D8004FB362 /* restaurant_verySmall.png */; };
+		71ACDEEF111040290033E4F1 /* GPS_med.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ACDEEC111040290033E4F1 /* GPS_med.png */; };
+		71ACDEF0111040290033E4F1 /* GPS_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ACDEED111040290033E4F1 /* GPS_no.png */; };
+		71ACDEF1111040290033E4F1 /* GPS_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ACDEEE111040290033E4F1 /* GPS_ok.png */; };
+		71ACDEF51110427B0033E4F1 /* GPS_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ACDEF41110427B0033E4F1 /* GPS_off.png */; };
+		71ACDF38111081310033E4F1 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ACDF37111081310033E4F1 /* user.png */; };
+		71B0533010ADB28D00CAE036 /* griglia.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B0532F10ADB28D00CAE036 /* griglia.png */; };
+		71B053B210ADBAE300CAE036 /* griglia2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 71B053B110ADBAE300CAE036 /* griglia2.gif */; };
+		71B72A9A10A1B7BF0049165E /* TeslameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B72A9910A1B7BF0049165E /* TeslameterViewController.m */; };
+		71B72AEA10A1B9030049165E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B72AE910A1B9030049165E /* CoreLocation.framework */; };
+		71B72C3310A1CBC70049165E /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B72C3010A1CBC70049165E /* AccelerometerFilter.m */; };
+		71B72C3410A1CBC70049165E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B72C3210A1CBC70049165E /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* OpenGLES13AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES13AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* OpenGLES13AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES13AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* IFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* OpenGLES13_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES13_Prefix.pch; sourceTree = "<group>"; };
+		38B36D5C0FC8F16000E36B44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7196A62D10FDC23A002FFFA6 /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
+		719C267D1100C24A00B6F60B /* restaurant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant2.png; sourceTree = "<group>"; };
+		719DD41510A86D3200AA78BC /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		719DD41610A86D3200AA78BC /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		71A185D610A42D01007CD918 /* LatLon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatLon.h; sourceTree = "<group>"; };
+		71A185D710A42D01007CD918 /* LatLon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatLon.m; sourceTree = "<group>"; };
+		71A1B4F310A9B9E4009A3E29 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		71A1B4F410A9B9E4009A3E29 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		71A2349D1109A79400CCD062 /* Restaurant.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Restaurant.xml; sourceTree = "<group>"; };
+		71A234AA1109AB4100CCD062 /* DetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsView.h; sourceTree = "<group>"; };
+		71A234AB1109AB4100CCD062 /* DetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsView.m; sourceTree = "<group>"; };
+		71A235661109D59D00CCD062 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		71A235671109D59D00CCD062 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		71A2356F1109DA4F00CCD062 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71A235701109DA4F00CCD062 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71A26CF810988582000B8918 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		71A26CF910988582000B8918 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		71A26CFA10988582000B8918 /* gluLookAt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gluLookAt.h; sourceTree = "<group>"; };
+		71A26CFB10988582000B8918 /* gluLookAt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gluLookAt.m; sourceTree = "<group>"; };
+		71A26DC210989179000B8918 /* TouchListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchListener.h; sourceTree = "<group>"; };
+		71A26DC310989179000B8918 /* TouchListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchListener.m; sourceTree = "<group>"; };
+		71A3085110C94A3900046A3D /* WebServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicesViewController.h; sourceTree = "<group>"; };
+		71A3085210C94A3900046A3D /* WebServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServicesViewController.m; sourceTree = "<group>"; };
+		71A365F610FC771B002A101F /* PlacesMngt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesMngt.h; sourceTree = "<group>"; };
+		71A365F710FC771B002A101F /* PlacesMngt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesMngt.m; sourceTree = "<group>"; };
+		71A366A110FC9EE0002A101F /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		71A366A210FC9EE0002A101F /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		71A6CBA8110D9C72005BF8C9 /* LastPath.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LastPath.xml; sourceTree = "<group>"; };
+		71A6CC30110DD32C005BF8C9 /* indicazione2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicazione2.png; sourceTree = "<group>"; };
+		71A78FE810D8EA4F00971823 /* LocalXYZInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalXYZInfoController.h; sourceTree = "<group>"; };
+		71A78FE910D8EA4F00971823 /* LocalXYZInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalXYZInfoController.m; sourceTree = "<group>"; };
+		71A7E33810C679A200BA3871 /* InfoView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView2.h; sourceTree = "<group>"; };
+		71A7E33910C679A200BA3871 /* InfoView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView2.m; sourceTree = "<group>"; };
+		71A8CB8F10B2B3A300F71D8C /* WorldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldController.h; sourceTree = "<group>"; };
+		71A8CB9010B2B3A300F71D8C /* WorldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldController.m; sourceTree = "<group>"; };
+		71A8CC2810B2C74D00F71D8C /* Vec4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec4.h; sourceTree = "<group>"; };
+		71A8CC2910B2C74D00F71D8C /* Vec4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vec4.m; sourceTree = "<group>"; };
+		71AA408610A08F4B00527FFA /* PLCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCameraController.h; sourceTree = "<group>"; };
+		71AA40AC10A08FAD00527FFA /* PhotoLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotoLibrary.framework; path = System/Library/PrivateFrameworks/PhotoLibrary.framework; sourceTree = SDKROOT; };
+		71AA9E6C10A2E6C200FA216A /* GPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSController.h; sourceTree = "<group>"; };
+		71AA9E6D10A2E6C200FA216A /* GPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSController.m; sourceTree = "<group>"; };
+		71AAA0B410A32F5800FA216A /* GraphicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicController.h; sourceTree = "<group>"; };
+		71AAA0B510A32F5800FA216A /* GraphicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicController.m; sourceTree = "<group>"; };
+		71AAA72B110F00D6004FB362 /* restaurant_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant_small.png; sourceTree = "<group>"; };
+		71AAA732110F01D8004FB362 /* restaurant_verySmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant_verySmall.png; sourceTree = "<group>"; };
+		71ACDEEC111040290033E4F1 /* GPS_med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS_med.png; sourceTree = "<group>"; };
+		71ACDEED111040290033E4F1 /* GPS_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS_no.png; sourceTree = "<group>"; };
+		71ACDEEE111040290033E4F1 /* GPS_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS_ok.png; sourceTree = "<group>"; };
+		71ACDEF41110427B0033E4F1 /* GPS_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS_off.png; sourceTree = "<group>"; };
+		71ACDF37111081310033E4F1 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		71B0532F10ADB28D00CAE036 /* griglia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = griglia.png; sourceTree = "<group>"; };
+		71B053B110ADBAE300CAE036 /* griglia2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = griglia2.gif; sourceTree = "<group>"; };
+		71B72A9810A1B7BF0049165E /* TeslameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeslameterViewController.h; sourceTree = "<group>"; };
+		71B72A9910A1B7BF0049165E /* TeslameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeslameterViewController.m; sourceTree = "<group>"; };
+		71B72AE910A1B9030049165E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71B72C2F10A1CBC70049165E /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		71B72C3010A1CBC70049165E /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		71B72C3110A1CBC70049165E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		71B72C3210A1CBC70049165E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OpenGLES13-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OpenGLES13-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				38B36D5D0FC8F16000E36B44 /* CoreGraphics.framework in Frameworks */,
+				71AA40AD10A08FAD00527FFA /* PhotoLibrary.framework in Frameworks */,
+				71B72AEA10A1B9030049165E /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71A7914D10D91A3300971823 /* Views */,
+				71A3189A10B53B44009F8702 /* Information */,
+				71AAA0B310A32F2100FA216A /* OpenGl */,
+				71AA9E6A10A2E6A400FA216A /* GPS */,
+				71B72C2C10A1CB540049165E /* Accelerometer */,
+				71B72A9210A1B6330049165E /* Compass */,
+				71A26DAD10988F92000B8918 /* Listener */,
+				71A26CAF109882B1000B8918 /* Objects */,
+				1D3623240D0F684500981E51 /* OpenGLES13AppDelegate.h */,
+				1D3623250D0F684500981E51 /* OpenGLES13AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* IFoods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* OpenGLES13_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71ACDF37111081310033E4F1 /* user.png */,
+				71ACDEF41110427B0033E4F1 /* GPS_off.png */,
+				71ACDEEC111040290033E4F1 /* GPS_med.png */,
+				71ACDEED111040290033E4F1 /* GPS_no.png */,
+				71ACDEEE111040290033E4F1 /* GPS_ok.png */,
+				71AAA732110F01D8004FB362 /* restaurant_verySmall.png */,
+				71AAA72B110F00D6004FB362 /* restaurant_small.png */,
+				71A6CC30110DD32C005BF8C9 /* indicazione2.png */,
+				71A6CBA8110D9C72005BF8C9 /* LastPath.xml */,
+				719C267D1100C24A00B6F60B /* restaurant2.png */,
+				7196A62D10FDC23A002FFFA6 /* restaurant.png */,
+				71B053B110ADBAE300CAE036 /* griglia2.gif */,
+				71B0532F10ADB28D00CAE036 /* griglia.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* OpenGLES13-Info.plist */,
+				71A2349D1109A79400CCD062 /* Restaurant.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71B72AE910A1B9030049165E /* CoreLocation.framework */,
+				71AA40AC10A08FAD00527FFA /* PhotoLibrary.framework */,
+				38B36D5C0FC8F16000E36B44 /* CoreGraphics.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71A1B4F210A9B98A009A3E29 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				71A1B4F310A9B9E4009A3E29 /* InfoView.h */,
+				71A1B4F410A9B9E4009A3E29 /* InfoView.m */,
+				71A7E33810C679A200BA3871 /* InfoView2.h */,
+				71A7E33910C679A200BA3871 /* InfoView2.m */,
+			);
+			name = InfoView;
+			sourceTree = "<group>";
+		};
+		71A234A91109AB2200CCD062 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				71A234AA1109AB4100CCD062 /* DetailsView.h */,
+				71A234AB1109AB4100CCD062 /* DetailsView.m */,
+				71A235661109D59D00CCD062 /* Table.h */,
+				71A235671109D59D00CCD062 /* Table.m */,
+				71A2356F1109DA4F00CCD062 /* ViewController.h */,
+				71A235701109DA4F00CCD062 /* ViewController.m */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		71A26CAF109882B1000B8918 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				71A185D610A42D01007CD918 /* LatLon.h */,
+				71A185D710A42D01007CD918 /* LatLon.m */,
+				71A8CC2810B2C74D00F71D8C /* Vec4.h */,
+				71A8CC2910B2C74D00F71D8C /* Vec4.m */,
+				71A366A110FC9EE0002A101F /* Place.h */,
+				71A366A210FC9EE0002A101F /* Place.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		71A26CBB109883A0000B8918 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				71AA408610A08F4B00527FFA /* PLCameraController.h */,
+				71A26CF810988582000B8918 /* Camera.h */,
+				71A26CF910988582000B8918 /* Camera.m */,
+			);
+			name = CameraView;
+			sourceTree = "<group>";
+		};
+		71A26DAD10988F92000B8918 /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				71A26DC210989179000B8918 /* TouchListener.h */,
+				71A26DC310989179000B8918 /* TouchListener.m */,
+			);
+			name = Listener;
+			sourceTree = "<group>";
+		};
+		71A3189A10B53B44009F8702 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				71A3085110C94A3900046A3D /* WebServicesViewController.h */,
+				71A3085210C94A3900046A3D /* WebServicesViewController.m */,
+				71A78FE810D8EA4F00971823 /* LocalXYZInfoController.h */,
+				71A78FE910D8EA4F00971823 /* LocalXYZInfoController.m */,
+				71A365F610FC771B002A101F /* PlacesMngt.h */,
+				71A365F710FC771B002A101F /* PlacesMngt.m */,
+			);
+			name = Information;
+			sourceTree = "<group>";
+		};
+		71A7914C10D91A1B00971823 /* VirtualView */ = {
+			isa = PBXGroup;
+			children = (
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+			);
+			name = VirtualView;
+			sourceTree = "<group>";
+		};
+		71A7914D10D91A3300971823 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71A234A91109AB2200CCD062 /* DetailView */,
+				71A26CBB109883A0000B8918 /* CameraView */,
+				71A1B4F210A9B98A009A3E29 /* InfoView */,
+				71A7914C10D91A1B00971823 /* VirtualView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		71AA9E6A10A2E6A400FA216A /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				71AA9E6C10A2E6C200FA216A /* GPSController.h */,
+				71AA9E6D10A2E6C200FA216A /* GPSController.m */,
+			);
+			name = GPS;
+			sourceTree = "<group>";
+		};
+		71AAA0B310A32F2100FA216A /* OpenGl */ = {
+			isa = PBXGroup;
+			children = (
+				71A26CFA10988582000B8918 /* gluLookAt.h */,
+				71A26CFB10988582000B8918 /* gluLookAt.m */,
+				719DD41510A86D3200AA78BC /* Texture2D.h */,
+				719DD41610A86D3200AA78BC /* Texture2D.m */,
+				71AAA0B410A32F5800FA216A /* GraphicController.h */,
+				71AAA0B510A32F5800FA216A /* GraphicController.m */,
+				71A8CB8F10B2B3A300F71D8C /* WorldController.h */,
+				71A8CB9010B2B3A300F71D8C /* WorldController.m */,
+			);
+			name = OpenGl;
+			sourceTree = "<group>";
+		};
+		71B72A9210A1B6330049165E /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				71B72A9810A1B7BF0049165E /* TeslameterViewController.h */,
+				71B72A9910A1B7BF0049165E /* TeslameterViewController.m */,
+			);
+			name = Compass;
+			sourceTree = "<group>";
+		};
+		71B72C2C10A1CB540049165E /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				71B72C2F10A1CBC70049165E /* AccelerometerFilter.h */,
+				71B72C3010A1CBC70049165E /* AccelerometerFilter.m */,
+				71B72C3110A1CBC70049165E /* MainViewController.h */,
+				71B72C3210A1CBC70049165E /* MainViewController.m */,
+			);
+			name = Accelerometer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IFoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IFoods" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFoods;
+			productName = OpenGLES13;
+			productReference = 1D6058910D05DD3D006BFB54 /* IFoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OpenGLES13" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IFoods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				71B0533010ADB28D00CAE036 /* griglia.png in Resources */,
+				71B053B210ADBAE300CAE036 /* griglia2.gif in Resources */,
+				7196A62E10FDC23A002FFFA6 /* restaurant.png in Resources */,
+				719C267E1100C24A00B6F60B /* restaurant2.png in Resources */,
+				71A2349E1109A79400CCD062 /* Restaurant.xml in Resources */,
+				71A6CBA9110D9C72005BF8C9 /* LastPath.xml in Resources */,
+				71A6CC31110DD32C005BF8C9 /* indicazione2.png in Resources */,
+				71AAA72C110F00D6004FB362 /* restaurant_small.png in Resources */,
+				71AAA733110F01D8004FB362 /* restaurant_verySmall.png in Resources */,
+				71ACDEEF111040290033E4F1 /* GPS_med.png in Resources */,
+				71ACDEF0111040290033E4F1 /* GPS_no.png in Resources */,
+				71ACDEF1111040290033E4F1 /* GPS_ok.png in Resources */,
+				71ACDEF51110427B0033E4F1 /* GPS_off.png in Resources */,
+				71ACDF38111081310033E4F1 /* user.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* OpenGLES13AppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				71A26CFE10988582000B8918 /* Camera.m in Sources */,
+				71A26CFF10988582000B8918 /* gluLookAt.m in Sources */,
+				71A26DC410989179000B8918 /* TouchListener.m in Sources */,
+				71B72A9A10A1B7BF0049165E /* TeslameterViewController.m in Sources */,
+				71B72C3310A1CBC70049165E /* AccelerometerFilter.m in Sources */,
+				71B72C3410A1CBC70049165E /* MainViewController.m in Sources */,
+				71AA9E6E10A2E6C200FA216A /* GPSController.m in Sources */,
+				71AAA0B610A32F5800FA216A /* GraphicController.m in Sources */,
+				71A185D810A42D01007CD918 /* LatLon.m in Sources */,
+				719DD41710A86D3200AA78BC /* Texture2D.m in Sources */,
+				71A1B4F510A9B9E4009A3E29 /* InfoView.m in Sources */,
+				71A8CB9110B2B3A300F71D8C /* WorldController.m in Sources */,
+				71A8CC2A10B2C74D00F71D8C /* Vec4.m in Sources */,
+				71A7E33A10C679A200BA3871 /* InfoView2.m in Sources */,
+				71A3085310C94A3900046A3D /* WebServicesViewController.m in Sources */,
+				71A78FEA10D8EA4F00971823 /* LocalXYZInfoController.m in Sources */,
+				71A365F810FC771B002A101F /* PlacesMngt.m in Sources */,
+				71A366A310FC9EE0002A101F /* Place.m in Sources */,
+				71A234AC1109AB4100CCD062 /* DetailsView.m in Sources */,
+				71A235681109D59D00CCD062 /* Table.m in Sources */,
+				71A235711109DA4F00CCD062 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OpenGLES13_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGLES13-Info.plist";
+				PRODUCT_NAME = IFoods;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OpenGLES13_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGLES13-Info.plist";
+				PRODUCT_NAME = OpenGLES13;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = IFoods;
+				SDKROOT = iphonesimulator2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OpenGLES13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

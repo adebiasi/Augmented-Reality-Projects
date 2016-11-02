@@ -1,0 +1,4 @@
+/Users/RdA/Desktop/IFoods detView/Classes/TableController.m: In function '-[TableController tableView:cellForRowAtIndexPath:]':
+/Users/RdA/Desktop/IFoods detView/Classes/TableController.m:37: error: 'arryData' undeclared (first use in this function)
+/Users/RdA/Desktop/IFoods detView/Classes/TableController.m:37: error: (Each undeclared identifier is reported only once
+/Users/RdA/Desktop/IFoods detView/Classes/TableController.m:37: error: for each function it appears in.)

@@ -1,0 +1,25 @@
+<Directions xmlns="directionsSchema" xmlns:gml="http://www.opengis.net/gml"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  
+
+	    <directions>
+		
+        <direction>
+            <name>ViaAllaCascata54</name>
+			<index>1</index>		  
+			<cartesianPosition>
+                <xsi:Point >
+					<gml:pos>56976.312500 70835.000000 49041.500000</gml:pos>					
+					</xsi:Point>
+				</cartesianPosition>
+				<geodeticPosition>
+                <xsi:Point >
+					<gml:pos>46.071480 11.147290 100</gml:pos>					
+					</xsi:Point>
+				</geodeticPosition>
+			</direction>		
+			
+	
+		</directions>
+</Directions>
+

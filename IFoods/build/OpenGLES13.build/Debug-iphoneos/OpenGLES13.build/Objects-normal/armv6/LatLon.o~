@@ -1,0 +1,3 @@
+/Users/RdA/Desktop/Appl_floatToDouble/Classes/LatLon.m: In function '-[LatLon initWithLatitude:Longitude:Altitude:]':
+/Users/RdA/Desktop/Appl_floatToDouble/Classes/LatLon.m:36: warning: conflicting types for '-(LatLon *)initWithLatitude:(double)lat Longitude:(double)lon Altitude:(double)alt'
+/Users/RdA/Desktop/Appl_floatToDouble/Classes/LatLon.h:36: warning: previous declaration of '-(LatLon *)initWithLatitude:(GLfloat)latitude Longitude:(GLfloat)longitude Altitude:(GLfloat)altitude'

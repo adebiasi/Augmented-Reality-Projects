@@ -1,0 +1,2 @@
+/Users/RdA/Desktop/IFoods GPS 7/Classes/DetailsView.m: In function '-[DetailsView initWithFrame:]':
+/Users/RdA/Desktop/IFoods GPS 7/Classes/DetailsView.m:38: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)
